@@ -19,16 +19,16 @@ Clone the repository:
 ```bash
 git clone https://github.com/hssh8877/Java-practice
 
-cd Java-practice/LibraryManager
+cd Java-practice/library_manager
 ```
 
 ## Usage
 ```bash
 javac -d out src/*.java
 cd out
-jar cfe LibraryManager.jar Main *.class
-java -jar LibraryManager.jar
-
+jar cfe library_manager.jar Main *.class
+java -jar library_manager.jar
+```
 
 Run `Main.java` to see example usage:
 
