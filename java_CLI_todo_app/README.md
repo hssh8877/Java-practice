@@ -30,7 +30,7 @@ cd Java-practice/java_CLI_todo_app
 
 Compile the Java files:
 ```
-```javac -d out Main.java Todo.java TodoList.java
+javac -d out src/*.java
 cd out
 ```
 Run the application:
