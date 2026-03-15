@@ -34,8 +34,9 @@ Compile the Java files:
 cd out
 ```
 Run the application:
+
 ```
-```java Main
+java Main
 ```
 Example usage:
 
