@@ -45,15 +45,20 @@ cd java_practice/bankaccount_management_system
 ## Usage
 
 Compile the Java files
+
 ```
 javac -d out src/*.java
 cd out
-```bash
+
+```
+
 
 ## Run the appication
+
 ```
 java Main
-```bash
+
+```
 
 ## Example usage
 
