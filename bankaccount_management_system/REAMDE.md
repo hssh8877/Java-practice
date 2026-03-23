@@ -38,7 +38,7 @@ Clone the repository:
 
 ```
 git clone https://github.com/hssh8877/Java-practice.git
-cd java-practice/bankaccount_management_system
+cd Java-practice/bankaccount_management_system
 ```
 
 
