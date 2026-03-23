@@ -44,8 +44,11 @@ Gson Setup (required for JSON persistence)
 
 This project uses Gson for saving and loading accounts.
 1. Download Gson
-```
+
 gson-2.10.1.jar
+from here
+```
+https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
 ```
 Place it into a lib/ folder inside the project:
 ```
