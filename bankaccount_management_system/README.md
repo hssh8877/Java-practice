@@ -55,26 +55,18 @@ bankaccount_management_system/
  │    └── gson-2.10.1.jar
  └── out/
 ```
-2. Compile with Gson in the classpath
+## Usage
+
+Compile
 ```
 javac -cp lib/gson-2.10.1.jar -d out src/*.java
-
 ```
 
-3.  Run with Gson in the classpath
+Run
 ```
 java -cp out:lib/gson-2.10.1.jar Main
 ```
-## Usage
-Compile the Java files
-```
-javac -cp lib/gson-2.10.1.jar -d out src/*.java
-cd out
-```
-Run the application
-```
-java -cp .:../lib/gson-2.10.1.jar Main
-```
+
 
 ## Example usage
 
