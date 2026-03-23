@@ -40,24 +40,37 @@ Clone the repository:
 git clone https://github.com/hssh8877/Java-practice.git
 cd Java-practice/bankaccount_management_system
 ```
+Gson Setup (required for JSON persistence)
 
-
+This project uses Gson for saving and loading accounts.
+1. Download Gson
+```
+gson-2.10.1.jar
+```
+Place it into a lib/ folder inside the project:
+```
+bankaccount_management_system/
+ ├── src/
+ ├── lib/
+ │    └── gson-2.10.1.jar
+ └── out/
+```
+2. Compile with Gson in the classpath
+```
+javac -cp lib/gson-2.10.1.jar -d out src/*.java
+```
+3.  Run with Gson in the classpath
+``` java -cp out:lib/gson-2.10.1.jar Main
+```
 ## Usage
-
 Compile the Java files
-
 ```
-javac -d out src/*.java
+javac -cp lib/gson-2.10.1.jar -d out src/*.java
 cd out
-
 ```
-
-
-## Run the appication
-
+Run the application
 ```
-java Main
-
+java -cp .:../lib/gson-2.10.1.jar Main
 ```
 
 ## Example usage
