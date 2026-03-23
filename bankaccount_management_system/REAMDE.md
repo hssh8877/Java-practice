@@ -6,31 +6,31 @@ The project illustrates clean class structure, OOP concepts, and practical backe
 
 ## Features
 
-    Create new bank accounts with owner name and account number
+Create new bank accounts with owner name and account number
 
-    Select an active account from a list
+Select an active account from a list
 
-    Show all existing accounts
+Show all existing accounts
 
-    Deposit money into the selected account
+Deposit money into the selected account
 
-    Withdraw money with balance validation
+Withdraw money with balance validation
 
-    Display current balance (BigDecimal with proper rounding)
+Display current balance (BigDecimal with proper rounding)
 
-    View full transaction history
+View full transaction history
 
-    Save all accounts to a JSON file
+Save all accounts to a JSON file
 
-    Load all accounts from a JSON file
+Load all accounts from a JSON file
 
-    Demonstrates OOP principles: classes, objects, methods, encapsulation
+Demonstrates OOP principles: classes, objects, methods, encapsulation
 
-    Uses ArrayList to store and manage multiple Account objects
+Uses ArrayList to store and manage multiple Account objects
 
-    Uses Gson for JSON persistence
+Uses Gson for JSON persistence
 
-    Uses BigDecimal for professional money handling
+Uses BigDecimal for professional money handling
 
 ## Installation
 
@@ -48,44 +48,44 @@ Compile the Java files
 ```
 javac -d out src/*.java
 cd out
-```
+```bash
 
 ## Run the appication
 ```
 java Main
-```
+```bash
 
 ## Example usage
 
-    Create a new bank account
+Create a new bank account
 
-    List all accounts
+List all accounts
 
-    Select an account
+Select an account
 
-    Deposit money
+Deposit money
 
-    Withdraw money
+Withdraw money
 
-    Show balance
+Show balance
 
-    View transaction history
+View transaction history
 
-    Save all accounts to a JSON file
+Save all accounts to a JSON file
 
-    Load accounts back into the system
+Load accounts back into the system
     
 ## Project Goals
 
-    Practice Java object‑oriented programming (OOP)
+Practice Java object‑oriented programming (OOP)
 
-    Learn class design, method creation, and multi‑object management
+Learn class design, method creation, and multi‑object management
 
-    Implement JSON file I/O for data persistence
+Implement JSON file I/O for data persistence
 
-    Work with BigDecimal for accurate financial calculations
+Work with BigDecimal for accurate financial calculations
 
-    Build a clean, structured CLI project suitable for a GitHub portfolio
+Build a clean, structured CLI project suitable for a GitHub portfolio
 
-    Prepare the foundation for future features like transfers, PIN login, or transaction objects
+Prepare the foundation for future features like transfers, PIN login, or transaction objects
 
