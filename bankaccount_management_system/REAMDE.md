@@ -58,6 +58,7 @@ bankaccount_management_system/
 2. Compile with Gson in the classpath
 ```
 javac -cp lib/gson-2.10.1.jar -d out src/*.java
+
 ```
 3.  Run with Gson in the classpath
 ``` java -cp out:lib/gson-2.10.1.jar Main
